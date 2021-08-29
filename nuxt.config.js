@@ -5,6 +5,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  // if you hosted your repository not as a base / main repository, else comment it
   router: {
     base: '/pyconid2021/'
   },
@@ -72,7 +73,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/favicon.ico' }
     ]
   },
 
